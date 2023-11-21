@@ -7,6 +7,7 @@ for i in input:
         floor += 1
     else:
         floor -= 1
+    # Rest of the loop below this line can be commented fo get part 1's answer
     if floor==-1:
         print(f"Reached basement at {index}")
         break
